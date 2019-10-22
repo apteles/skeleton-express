@@ -6,7 +6,9 @@
   "author": "Andre Teles <andre.telestp@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "youch": "^2.0.10"
   },
   "devDependencies": {
     "nodemon": "^1.19.4",
