@@ -1,0 +1,19 @@
+{
+  "name": "skeleton-express",
+  "version": "1.0.0",
+  "description": "Skeleton to getting started project nodejs",
+  "main": "server.js",
+  "author": "Andre Teles <andre.telestp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.10.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
+}

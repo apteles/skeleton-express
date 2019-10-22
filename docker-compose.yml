@@ -1,0 +1,14 @@
+version: '3'
+services:
+  database:
+    image: postgres
+    container_name: database
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: your_secret
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdataskeleton:/var/lib/postgresql/data
+volumes:
+  pgdataskeleton:
