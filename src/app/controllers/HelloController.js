@@ -1,6 +1,6 @@
 class HelloController {
   index(req, res) {
-    res.jsn({ message: 'hello wold' })
+    res.jso({ message: 'hello wold' })
   }
 }
 
