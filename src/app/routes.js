@@ -1,11 +1,9 @@
-import { Router } from 'express'
-const routes = new Router()
+import { Router } from 'express';
 
+import HelloController from './controllers/HelloController';
 
-import HelloController from './controllers/HelloController'
+const routes = new Router();
 
+routes.get('/', HelloController.index);
 
-routes.get('/', HelloController.index)
-
-
-export default routes
+export default routes;
