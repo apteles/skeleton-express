@@ -14,8 +14,14 @@
   "devDependencies": {
     "@sucrase/jest-plugin": "^2.0.0",
     "@types/jest": "^24.0.19",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "jest": "^24.9.0",
     "nodemon": "^1.19.4",
+    "prettier": "^2.0.5",
     "sequelize-cli": "^5.5.1",
     "sucrase": "^3.10.1",
     "supertest": "^4.0.2"
